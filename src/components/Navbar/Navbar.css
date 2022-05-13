@@ -1,0 +1,73 @@
+.nav-container{
+  background-color:  var(--black-light);
+  box-shadow: 2px 2px 8px;
+  height: 7rem;
+  margin : 0;
+  border-radius: 0;
+}
+
+/* Styles for search bar */
+.navbar-search{
+  width: 28rem;
+  border: 1px solid var(--whiteOG);
+  background-color: var(--yellow-d0);
+  text-indent: 5px;
+  font-size: 1.6rem;
+  
+}
+
+/* pseudo classes for search bar */
+::placeholder { 
+  color: var(--black-light);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+:focus {
+  outline: 0;
+}
+
+/* Styles for button */
+.btn--login{
+  border: none;
+  border-radius: 0;
+  padding: 1rem 2.4rem;
+  background-color: var(--yellow-d0);
+  color: var(--primary-bg-color);
+  transition: all 0.3s;
+}
+
+.btn--login:hover{
+  border: none;
+  border-radius: 0;
+  padding: 1.2rem 2.4rem;
+  background-color: var(--yellow-d1);
+  color: var(--primary-bg-color);
+}
+
+
+/* Styles for icons */
+.user-profile-icon{
+  margin-right: 0;
+}
+
+.user-profile-icon .icons, .user-profile-cart .icons{
+  color: var(--yellow-d0);
+  font-size: 3.6rem;
+  transition: all 0.4s;
+}
+
+.user-profile-icon .icons:hover, .user-profile-cart .icons:hover{
+  color: var(--yellow-d0);
+  font-size: 3.6rem;
+  transform: translateY(-0.3rem);
+  cursor: pointer;
+}
+
+.usericon-container{
+  display: flex;
+  gap: 4rem;
+}
+
+
+
+
