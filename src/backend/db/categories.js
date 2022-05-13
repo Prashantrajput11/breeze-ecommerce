@@ -8,19 +8,22 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    categoryName: "fiction",
+    categoryName: "Facewash",
+    categoryImg :  'https://res.cloudinary.com/df5hhvtdp/image/upload/v1652435608/facewash_charcoal_rxaulk.png',
     description:
       "literature in the form of prose, especially novels, that describes imaginary events and people",
   },
   {
     _id: uuid(),
-    categoryName: "non-fiction",
+    categoryName: "Hairspray",
+    categoryImg : 'https://res.cloudinary.com/df5hhvtdp/image/upload/v1652435618/hairspray_sjrsc0.png',
     description:
       "Non-fiction is writing that gives information or describes real events, rather than telling a story.",
   },
   {
     _id: uuid(),
-    categoryName: "horror",
+    categoryName: "Combos",
+    categoryImg : 'https://res.cloudinary.com/df5hhvtdp/image/upload/v1652435597/combo1_jski8x.png',
     description:
       "Meant to cause discomfort and fear for both the character and readers, horror writers often make use of supernatural and paranormal elements in morbid stories that are sometimes a little too realistic.",
   },
