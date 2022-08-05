@@ -15,6 +15,7 @@ const Home = () => {
      <Hero/>
      <Categories/>
      <Showcase/>
+    
     </div>
   )
 }
