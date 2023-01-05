@@ -1,0 +1,55 @@
+.sidebar-col{
+  padding:  4rem 2rem;
+  font-size: 1.6rem;
+  color: var(--yellow-d0);
+  font-weight:light;
+  /* border: 2px solid red; */
+  box-shadow: 2px 2px 8px var(--black-b0);
+  background-color: var(--black-light);
+  z-index: -2;
+  min-height: 100vh;
+  font-family: 'Rajdhani', sans-serif !important;
+
+ 
+}
+
+.sidebar-title{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-family: 'Rajdhani', sans-serif !important;
+/* border: 2px solid red; */
+
+}
+
+.clear-cta{
+  border:none;
+  background-color: var( --secondary-bg-color );
+  padding: 1rem 2rem;
+
+}
+
+/* styles for slider */
+
+
+/* .categories-list{
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.categories-list li{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid purple;
+  align-items: center;
+  justify-content: center;
+} */
+
+.categories-list input[type="checkbox"]{
+  width: 2rem;
+  height: 2.2rem;
+  margin-right: 1rem;
+}
+
